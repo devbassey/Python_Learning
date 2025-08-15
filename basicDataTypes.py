@@ -22,3 +22,14 @@ In programming, you need to decide what type would best suit your data and
 the operations you want to perform on it. Choosing the right data type is 
 crucial for optimizing performance and ensuring the correctness of your code.
 '''
+
+# Numeric Data Types
+# 1. Integer
+x = 10
+print(x)
+
+a = 5
+b = 3
+print(a+b)  # Addition
+print(a-b)  # Subtraction
+print(a*b)  # Multiplication
