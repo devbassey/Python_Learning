@@ -85,3 +85,11 @@ Tuples are defined using parentheses ().'''
 coordinates = (10.5, 20.3)
 print(coordinates)
 
+#Dictionary Data Type
+'''Dictionaries are used to store key-value pairs, where each key is unique and maps to a specific value.
+Dictionaries are defined using curly braces {}. They are useful for representing structured data.'''
+person = {
+    "name": "Alice",
+    "age": 30,
+    "city": "New York"
+}
