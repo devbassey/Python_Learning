@@ -1,5 +1,7 @@
+
+## BASIC DATA TYPES
 '''
-BASIC DATA TYPES
+In programming, data types are fundamental concepts that define the nature of data
 Computer systems need to interpret data in a way that is meaningful and 
 useful. This involves understanding the different types of data that can be
 processed and how they can be represented in a computer's memory.
@@ -55,3 +57,31 @@ complex_num = 2 + 3j
 complex_num = 2 + 3j
 print(complex_num.real)  # Accessing the real part
 print(complex_num.imag)  # Accessing the imaginary part
+
+# Sequence Data Types
+'''Sequence data types are used to store collections of items in a specific order.
+Python provides several sequence types, including strings, lists, and tuples.
+'''
+# 1. String
+'''Strings are used to represent text data. They are sequences of characters enclosed in quotes.
+Strings can be manipulated using various methods, such as concatenation, slicing, and formatting.'''
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print(full_name)
+
+# 2. List
+'''Lists are ordered collections of items that can be of different data types.
+They are mutable, meaning you can change their contents after creation. 
+Lists are defined using square brackets [].'''
+
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+
+# 3. Tuple
+'''Tuples are similar to lists but are immutable, meaning their contents cannot be changed after creation.
+Tuples are defined using parentheses ().'''
+
+coordinates = (10.5, 20.3)
+print(coordinates)
+
