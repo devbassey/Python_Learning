@@ -93,3 +93,8 @@ person = {
     "age": 30,
     "city": "New York"
 }
+print(person)
+
+# Set Data Type
+'''Sets are unordered collections of unique items. They are useful for storing distinct values and performing 
+set operations like union, intersection, and difference.'''
