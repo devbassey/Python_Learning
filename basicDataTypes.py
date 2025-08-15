@@ -24,7 +24,13 @@ crucial for optimizing performance and ensuring the correctness of your code.
 '''
 
 # Numeric Data Types
+'''Numeric data types are used to represent numbers in programming. 
+Python supports several numeric types, including integers, floating-point numbers,
+and complex numbers. Each type has its own characteristics and use cases.
+'''
 # 1. Integer
+'''Integers are whole numbers, both positive and negative, without any decimal 
+point. They can be used for counting, indexing, and performing arithmetic operations.'''
 x = 10
 print(x)
 
@@ -33,3 +39,19 @@ b = 3
 print(a+b)  # Addition
 print(a-b)  # Subtraction
 print(a*b)  # Multiplication
+
+# 2. Float
+'''Floating-point numbers are used to represent real numbers with decimal points.
+They are useful for representing values that require precision, such as measurements or financial calculations.'''
+pi = 3.14
+print(pi)
+
+# 3. Complex Numbers
+'''
+Complex numbers are represented as a real part and an imaginary part.
+In Python, complex numbers are written as `a + bj`, where `a` is  the real part and `b` is the imaginary part.    
+complex_num = 2 + 3j
+'''
+complex_num = 2 + 3j
+print(complex_num.real)  # Accessing the real part
+print(complex_num.imag)  # Accessing the imaginary part
