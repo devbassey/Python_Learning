@@ -98,3 +98,12 @@ print(person)
 # Set Data Type
 '''Sets are unordered collections of unique items. They are useful for storing distinct values and performing 
 set operations like union, intersection, and difference.'''
+# Example of a set
+unique_numbers = {1, 2, 3, 4, 5}
+print(unique_numbers)
+
+# Boolean Data Type
+'''Booleans represent truth values, either True or False. They are often used in conditional statements and logical operations.'''
+is_active = True
+
+
